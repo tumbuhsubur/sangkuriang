@@ -21,6 +21,37 @@ class Welcome extends CI_Controller
 	 */
 	public function index()
 	{
-		$this->load->view('beranda');
+
+		$data['judul'] = 'Sanggar Tari Sangkuriang';
+		$this->load->view('templates/welc_header', $data);
+		$this->load->view('welcome/beranda');
+		$this->load->view('templates/welc_footer');
+	}
+
+	public function pendaftaran()
+	{
+
+		$data['judul'] = 'Sanggar Tari Sangkuriang';
+		$this->load->view('templates/welc_header', $data);
+		$this->load->view('welcome/pendaftaran');
+		$this->load->view('templates/welc_footer');
+	}
+
+	public function kelas()
+	{
+
+		$data['judul'] = 'Sanggar Tari Sangkuriang';
+		$this->load->view('templates/welc_header', $data);
+		$this->load->view('welcome/kelas');
+		$this->load->view('templates/welc_footer');
+	}
+
+	public function pengajar()
+	{
+
+		$data['judul'] = 'Sanggar Tari Sangkuriang';
+		$this->load->view('templates/welc_header', $data);
+		$this->load->view('welcome/pengajar');
+		$this->load->view('templates/welc_footer');
 	}
 }

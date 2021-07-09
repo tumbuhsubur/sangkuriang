@@ -63,11 +63,19 @@
   <?php endforeach; ?>
 
 
-  <!-- Nav Item - User Profile -->
+  <!-- Nav Item - Cetak PDF -->
   <li class="nav-item">
-    <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
-      <i class="fas fa-fw fa-sign-out-alt"></i>
-      <span>Log Out</span></a>
+    <a class="nav-link" href="<?= base_url('admin/cetakpdf'); ?>">
+      <i class="far fa-file-pdf""></i>
+      <span>Cetak PDF</span></a>
+  </li>
+
+
+  <!-- Nav Item - User Profile -->
+  <li class=" nav-item">
+        <a class="nav-link" href="<?= base_url('auth/logout'); ?>">
+          <i class="fas fa-fw fa-sign-out-alt"></i>
+          <span>Log Out</span></a>
   </li>
 
   <!-- Divider -->

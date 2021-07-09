@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="id">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Sanggar Tari Sangkuriang</title>
-  <meta name="description" content="Sanggar Tari Sangkuriang">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/bootstrap.min.css">
-  <link rel="icon" href="<?= base_url('assets/'); ?>img/ci-icon.ico">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>fonts/fontawesome-all.min.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>fonts/font-awesome.min.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>fonts/fontawesome5-overrides.min.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Article-List.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Brands.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Navigation-with-Button.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Projects-Clean.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Simple-Slider.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Team-Boxed.css">
-  <link rel="stylesheet" href="<?= base_url('assets/'); ?>css/Team-Clean.css">
-</head>
-
 <body class="text-center">
   <nav class="navbar navbar-light navbar-expand bg-white text-center shadow d-inline-flex mb-4 topbar static-top" style="width: 1280px;height: 100px;background: var(--blue);">
     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
@@ -31,7 +7,7 @@
           <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link active" href="">Beranda</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?= base_url('pendaftaran.php'); ?>"><br>Prosedur Pendaftaran<br><br></a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= base_url('pendaftaran'); ?>"><br>Prosedur Pendaftaran<br><br></a></li>
               <li class="nav-item dropdown"><a class="dropdown-toggle nav-link visible" aria-expanded="false" data-toggle="dropdown" href="#">Menu Lain</a>
                 <div class="dropdown-menu"><a class="dropdown-item" href="DataKelasTari.php">Kelas Tari</a><a class="dropdown-item" href="DataPengajar.html">Data Pengajar</a><a class="dropdown-item" href="#">Rencana Kegiatan</a></div>
               </li>
@@ -82,21 +58,4 @@
     </div>
   </section>
   <div class="text-center"></div>
-  <footer class="bg-white sticky-footer">
-    <section class="team-clean"></section>
-    <section class="team-boxed"></section>
-    <div class="container my-auto">
-      <div class="text-center my-auto copyright"></div>
-    </div>
-  </footer>
-  <script src="<?= base_url('assets/'); ?>/js/jquery.min.js"></script>
-  <script src="<?= base_url('assets/'); ?>/bootstrap/js/bootstrap.min.js"></script>
-  <script src="<?= base_url('assets/'); ?>/js/chart.min.js"></script>
-  <script src="<?= base_url('assets/'); ?>/js/bs-init.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-  <script src="<?= base_url('assets/'); ?>/js/Simple-Slider.js"></script>
-  <script src="<?= base_url('assets/'); ?>/js/theme.js"></script>
 </body>
-
-</html>
