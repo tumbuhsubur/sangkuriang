@@ -31,7 +31,7 @@
           <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link active" href="">Beranda</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?= base_url('views/welcome/'); ?>pendaftaran.php"><br>Prosedur Pendaftaran<br><br></a></li>
+              <li class="nav-item"><a class="nav-link" href="<?= base_url('pendaftaran.php'); ?>"><br>Prosedur Pendaftaran<br><br></a></li>
               <li class="nav-item dropdown"><a class="dropdown-toggle nav-link visible" aria-expanded="false" data-toggle="dropdown" href="#">Menu Lain</a>
                 <div class="dropdown-menu"><a class="dropdown-item" href="DataKelasTari.php">Kelas Tari</a><a class="dropdown-item" href="DataPengajar.html">Data Pengajar</a><a class="dropdown-item" href="#">Rencana Kegiatan</a></div>
               </li>
@@ -44,7 +44,7 @@
           <div class="input-group-append"></div>
         </div>
       </form>
-      <a class="btn btn-primary active btn-block text-white btn-user" role="button" style="width: 100px;margin-right: 10px;" href="login.html">Login</a>
+      <a class="btn btn-primary active btn-block text-white btn-user" role="button" style="width: 100px;margin-right: 10px;" href="<?= base_url('auth'); ?>">Login</a>
     </div>
   </nav>
   <div class="simple-slider">
